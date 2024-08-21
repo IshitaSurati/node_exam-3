@@ -2,13 +2,18 @@ const Sum = (a, b) => {
     return Number(a) + Number(b);
 }
 
+
+
 const Subtract = (a, b) => {
     return a - b;
 }
 
+
+
 const Multiplaction = (a, b) => {
     return a * b;
 }
+
 
 const Division = (a, b) => {
     if (Number(b) === 0) {
